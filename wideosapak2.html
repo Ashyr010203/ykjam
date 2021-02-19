@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wideosapaklar</title>
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<link rel="stylesheet" href="css/maincss.css">
+    <style>
+            .block-container {
+                position: relative;
+                float: left;
+                margin: 2px;
+            }
+            .block-container, .block-container div, .block-container img {  }
+            .block-container div, .block-container img { position: absolute; }
+            .block-container img {z-index: 1000;}
+            .block-front {
+                z-index: 1001;
+                background-color: black;
+                transition: all 0.4s ease-in-out 0s;
+                opacity: 0;
+                color: white;
+                cursor: pointer;
+            }
+            .block-front:hover { opacity: .7; }
+            .block-front span {
+                display: block;
+             
+                padding: 50px 0;
+                text-align: center;
+                margin-bottom: 100px;
+            }
+        </style>
+</head>
+<body  >
+	
+	<nav class="navbar  fixed-top navbar-expand-lg navbar-dark " style="height: 80px;background-color:#272729e0" >
+ 		
+ 		
+    <a class="navbar-brand" href="main.html"><b>	<h1 style="font-family: Palatino linotype">Ykjam</h1> </b></a>
+ 		
+ 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    	<div class="collapse navbar-collapse " id="navbarTogglerDemo01">	
+    		
+ 		<ul class="navbar-nav ml-auto">
+ 			
+ 			<li class="navbar-item ">
+ 				<a class="nav-link " href="Kitaplar.html"><h5 style="font-family: Palatino linotype">	Kitaplar</h5></a>
+ 			</li>
+ 			<li class="navbar-item active">
+ 				<a class="nav-link " href="wideosapak.html"><h5 style="font-family: Palatino linotype">	Wideo Sapaklar</h5></a>
+ 			</li>
+ 			<li class="navbar-item">
+ 				<a class="nav-link " href="prezentasiya.html"><h5 style="font-family: Palatino linotype">	Prezentasiýalar</h5></a>
+ 			</li>
+ 			<li class="navbar-item">
+ 				<a class="nav-link " href="okuw_sayt.html"><h5 style="font-family: Palatino linotype">	Bilim Saýtlary</h5></a>
+ 			</li>
+ 			<li class="navbar-item">
+ 				<a class="nav-link " href="ozuneynan.html"><h5 style="font-family: Palatino linotype">	Özüňe Ynan</h5></a>
+ 			</li>
+ 			
+	 			<div class="dropdown">
+  <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+    Türkmen TV
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+    <li><a class="dropdown-item  active" href="Altyn_asyr.html"style="padding-left: 5px">Altyn Asyr</a></li>
+    <li><a class="dropdown-item" href="yashlyk.html"style="padding-left: 5px">Ýaşlyk</a></li>
+    <li><a class="dropdown-item" href="miras.html"style="padding-left: 5px">Miras</a></li>
+    <li><a class="dropdown-item" href="t-stan.html"style="padding-left: 5px">Türkmenistan</a></li>
+    <li><a class="dropdown-item" href="t-owaz.html"style="padding-left: 5px">Türkmen Owazy</a></li>
+    <li><a class="dropdown-item" href="t-sport.html"style="padding-left: 5px">Türkmenistan Sport</a></li>
+    <li><a class="dropdown-item" href="aga.html"style="padding-left: 5px">Aşgabat</a></li>
+  </ul>
+</div>
+ 		</ul>
+
+ 		</div>
+	</nav>
+
+	<script src="\Taslama\js\bootstrap.bundle.min.js"  ></script>
+<br><br><br>
+	<div class="okuw_s " class="container-fluid">
+		<center>
+			<br>
+			<br>
+		<table>
+			<tr>
+				<td class="wideo"><div class="card mb-4 shadow-sm ">
+            		<div class="block-container" style="width: 360px;height: 195px" >
+                        
+                    
+                    <a href="matem.html"><img src="sources/mathl.jpg" alt="" width="360" height="195" style="width: 360px;height: 195px"></a>
+                    <div class="block-front" style="width: 360px;height: 195px"><span style="font-size: 60px;font-family: calibri">Geç</span></div>
+                    </div>
+            		<div class="card-body" style="width: 360px">
+             		 <center><p class="card-text" style="font-family:calibri;">Matematika</p>
+              </center>
+            		</div>
+				</td>
+				<td class="wideo"><div class="card mb-4 shadow-sm">
+                    <div class="block-container" style="width: 360px;height: 195px" >
+            		<a href="fizika.html"><img src="sources/fizl.PNG" alt="" width="360" height="195"></a>
+                    <div class="block-front" style="width: 360px;height: 195px"><span style="font-size: 60px;font-family: calibri">Geç</span></div>
+                    </div>
+            		<div class="card-body" style="width: 360px">
+             		 <center><p class="card-text" style="font-family:calibri;">Fizika</p>
+              </center>
+            		</div>
+				</td>
+				<td class="wideo"><div class="card mb-4 shadow-sm">
+            		<img src="sources/prog.jfif" alt="" width="360" height="195">
+            		<div class="card-body" style="width: 360px">
+             		 <center><p class="card-text" style="font-family:calibri;">Programmirleme</p></center>
+              
+            		</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="wideo"><div class="card mb-4 shadow-sm">
+            		<img src="sources/dizayn.jpg" alt="" width="360" height="195">
+            		<div class="card-body" style="width: 360px">
+             		 <center>
+             		 	
+             		 <p class="card-text" style="font-family:calibri;">Dizaýnerçilik</p>
+             		 </center>
+
+            		</div>
+				</td>
+				<td class="wideo"><div class="card mb-4 shadow-sm">
+            		<img src="sources/inlisl.png" alt="" width="360" height="195">
+            		<div class="card-body" style="width: 360px">
+             		 <center><p class="card-text" style="font-family:calibri;">Iňlis dili</p></center>
+
+              
+            		</div>
+				</td>
+				<td class="wideo"><div class="card mb-4 shadow-sm">
+            		<img src="sources/frenchl.jpg" alt="" width="360" height="195">
+            		<div class="card-body" style="width: 360px">
+             		 <center>
+             		 	<p class="card-text" style="font-family:calibri;">Fransuz dili</p>
+             		 </center>
+              
+            		</div>
+				</td>
+			</tr>
+		</table>
+		
+
+		</center>
+	</div>
+	
+</body>
+</html>
